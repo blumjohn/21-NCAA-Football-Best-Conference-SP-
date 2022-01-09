@@ -150,6 +150,8 @@ ggsave("sp_boxplot.png")
 
 
 ```
+![ALT test](sp_boxplot.png)
+
 
 Again, the box represents the 25th to 75th percentiles, dots are the individual teams, the vertical line in the box the median of that conference's population, and the horizontal lines the expected statistical minimum and maximums. Points outside those lines are plotted as red circles indicating outliers.
 
@@ -193,6 +195,12 @@ ggplot(data=subset(df,Conference %in% c("SEC","Big10",
 ggsave("div_boxplot.png")
 
 ```
+
+![ALT test](div_ridgeview.png)
+
+![ALT test](div_boxplot.png)
+
+
 
 ### Interpretation of Divisions
 The SEC west is the best division with the highest Mean and Median values, followed by the Big10 East. However, the Big10 East has a higher P75 value, with Ohio State rated a bit better than Alabama and Michigan greater than Ole Miss. The Big10 East does have laggards this year (Rutgers is improving, Indiana was expected to be good but after early injuries, collapsed from their strong 2020 season.) Those divisions are followed by the ACC Atlantic, SEC East, and Big10 West. 
