@@ -75,6 +75,8 @@ df2 %>% kbl(,digits=2,caption="2021 SP+ Conference Statistics") %>% kable_stylin
 
 
 ```
+![ALT test](sptable1.png)
+
 
 To make sense of these, consider this primer on statistical metrics.
 
@@ -195,6 +197,7 @@ ggplot(data=subset(df,Conference %in% c("SEC","Big10",
 ggsave("div_boxplot.png")
 
 ```
+![ALT test](sptable2.png)
 
 ![ALT test](div_ridgeview.png)
 
