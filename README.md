@@ -130,6 +130,7 @@ ggplot(data=df,aes(x=Points,y=reorder(Conference,Points),fill=Conference)) + geo
 ggsave("sp_ridgeview.png")
 
 ```
+![ALT test](sp_ridgeview.png)
 
 This plot shows a smoothed density of teams with the y-axis indicating the relative concentraion of teams around that pionts value. In this plot, the SEC and Big10 look similar, with simlar peaks and tails, the SEC a bit wider and fatter. The Big12 in this reprensetation appears to have a peak higher than the SEC and Big10, but a short tail. It's highly left skewed with a collection of very good but not elite teams. 
 
